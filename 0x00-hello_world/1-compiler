@@ -1,2 +1,2 @@
 #!/bin/bash
-cc -E $CFILE.c -o $CFILE.o
+cc -c $CFILE
