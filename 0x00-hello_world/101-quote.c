@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <locale.h>
+#include <unistd.h>
 
 /**
  * main - Prints a string
  *
- * Return: 0
+ * Return: 1
  */
 int main(void)
 {
