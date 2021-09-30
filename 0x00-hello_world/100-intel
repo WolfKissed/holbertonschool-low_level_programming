@@ -1,2 +1,2 @@
 #!/bin/bash
-cc -S -masm=intel main.c
+cc -S -masm=intel $CFILE
