@@ -18,8 +18,8 @@ int main(void)
 	int lower_i = tolower(i);
 
 	putchar(lower_i);
-	putchar('\n');
 }
+	putchar('\n');
 
 	return (0);
 }
