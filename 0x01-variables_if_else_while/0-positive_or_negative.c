@@ -4,21 +4,23 @@
 #include <ctype.h>
 #include <locale.h>
 #include <unistd.h>
-/* *
- * main - Generates a random number then prints whether it is negative or positive 
- * Return: 0 
+/**
+ * main - Generates a random number then prints
+ * whether it is positive or negative or zero
+ *
+ * Return: 0
  */
 int main(void)
 {
-    int n;
-    srand(time(0));
-    n = rand() - RAND_MAX / 2;
-    if (n <= 0.0) {
-        if (n == 0.0)
-            printf("is zero\n");
-        else
-            printf("is negative\n");
-    } else
-        printf("is positive\n");
-    return (0);
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+		if (n > 0)
+		printf("%d is positive", n);
+		else if (n < 0)
+		printf("%d is negative", n);
+		else
+		printf("%d is zero", n);
+		return (0);
 }
