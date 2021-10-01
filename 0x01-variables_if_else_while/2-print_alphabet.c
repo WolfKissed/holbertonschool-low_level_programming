@@ -11,7 +11,7 @@
  */
 int main(void)
 {
-    for(int i = 'A'; i <= 'Z'; i++)
+    for ( int i = 'A' ; i <= 'Z' ; i++)
 {
     int lower_i = tolower(i);
     putchar(lower_i);
