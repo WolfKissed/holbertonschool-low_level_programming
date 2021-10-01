@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - Prints number from 0 to 9, seperated by commas
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 int main(void)
 {
