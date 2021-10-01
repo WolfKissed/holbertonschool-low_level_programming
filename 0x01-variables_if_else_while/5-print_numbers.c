@@ -5,7 +5,7 @@
 #include <locale.h>
 #include <unistd.h>
 /**
- * main - Prints the alphabets in lower case
+ * main - Prints the numbers from 0 to 10
  *
  * Return: 0
  */
