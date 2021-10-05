@@ -21,7 +21,7 @@ int _islower(int c)
 {
     char c;
     int i;
-    for (i ='a' ; i <= 'z' ; i++)
+    while (i < z)
     {
     if (i == c)
     return (1);
