@@ -1,10 +1,9 @@
 #include<stdio.h>
-
+int fibonacci_series(int);
 /**
  * main - check the code.
  * Return: Always 0.
  */
-int fibonacci_series(int);
 int main(void)
 {
    int c = 0, i;
