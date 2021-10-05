@@ -9,6 +9,10 @@
 int print_last_digit(int n)
 {
 long c = n;
+		if (c < 0)
+{
+		c=-c;
+}
 		if (c > 10)
 {
 	c %= 10;
@@ -17,10 +21,6 @@ long c = n;
 {
 	_putchar(c + '0');
 return (c);
-}
-		if (c < 0)
-{
-	c = -c;
 }
 	_putchar('0');
 return (0);
