@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code.
- *
+ * _islower - check the code.
+ * @c: int
  * Return: Always 0.
  */
 int _islower(int c)
@@ -12,5 +12,4 @@ int _islower(int c)
 		return (1);
 	}
 		return (0);
-	
 }
