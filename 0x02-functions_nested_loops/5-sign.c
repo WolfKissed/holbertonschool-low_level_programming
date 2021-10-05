@@ -2,7 +2,7 @@
 
 /**
  * print_sign - check the code.
- * @c: int
+ * @n: int
  * Return: Always 0.
  */
 int print_sign(int n)
