@@ -1,23 +1,26 @@
 #include<stdio.h>
 
 /**
- * _abs - check the code.
- * @n: int
+ * main - check the code.
  * Return: Always 0.
  */
 int fibonacci_series(int);
-int main()
+int main(void)
 {
    int c = 0, i;
 
-   for ( i = 1 ; i <= 50 ; i++ )
+   for ( i = 1 ; i <= 5 ; i++ )
    {
-      printf("%d\n", fibonacci_series(c));
+      printf("%d ,", fibonacci_series(c));
       c++;
    }
 
    return 0;
 }
+/**
+ * fibonacci_series - check the code.
+ * Return: 0.
+ */
 int fibonacci_series(int num)
 {
    if ( num == 0 )
