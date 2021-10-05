@@ -17,4 +17,15 @@ int main(void)
     _putchar(r + '0');
     _putchar('\n');
     return (0);
+int _islower(int c)
+{
+    char c;
+    int i;
+    for (i ='a' ; i <= 'z' ; i++)
+    {
+    if (i == c)
+    return (1);
+    i++;
 }
+    return (0);
+}}
