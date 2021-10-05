@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _islower - check the code.
+ * _isalpha - check the code.
  * @c: int
  * Return: Always 0.
  */
 int _isalpha(int c)
 {
-	if (c  <= 'z' && c >= 'a')
+	if (c  <= 'z' && c >= 'A')
 	{
 		return (1);
 	}
