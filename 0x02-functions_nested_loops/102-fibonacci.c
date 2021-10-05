@@ -11,7 +11,7 @@ int main(void)
 
    for ( i = 1 ; i <= 50 ; i++ )
    {
-      printf("%d ,", fibonacci_series(c));
+      printf("%d, ", fibonacci_series(c));
       c++;
    }
 
