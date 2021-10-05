@@ -9,7 +9,7 @@ int main(void)
 {
    int c = 0, i;
 
-   for ( i = 1 ; i <= 5 ; i++ )
+   for ( i = 1 ; i <= 50 ; i++ )
    {
       printf("%d ,", fibonacci_series(c));
       c++;
