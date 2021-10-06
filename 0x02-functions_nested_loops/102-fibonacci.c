@@ -6,7 +6,7 @@
  */
 int main (void)
 {
-int a, i = 0, b = 1, c = 0;
+int a, i = 0, b = 1, c = 2;
 
 while(i < 48)
 {
