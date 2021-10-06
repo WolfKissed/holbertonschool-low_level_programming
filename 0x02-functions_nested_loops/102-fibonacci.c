@@ -16,7 +16,7 @@ for (i = 1; i < 50; i++)
 	c = b;
 	b = a;
 }
-for (i =1; i < 52; i++)
+for (i =51; i < 52; i++)
 {
 	printf("%ld", a);
 }
