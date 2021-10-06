@@ -6,7 +6,8 @@
  */
 int main(void)
 {
-long int b = 1, c = 0, a, i;
+int i;
+long int b = 1, c = 0, a;
 
 for (i = 1; i < 51; i++)
 {
