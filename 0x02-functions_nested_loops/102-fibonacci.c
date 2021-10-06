@@ -19,7 +19,7 @@ for (i = 1; i < 50; i++)
 for (i = 50; i < 51; i++)
 {
 	a = b + c;
-	printf("%ld", a);
+	printf("%ld\n", a);
 }
 return (0);
 }
