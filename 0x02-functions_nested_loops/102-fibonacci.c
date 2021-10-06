@@ -2,31 +2,19 @@
 
 /**
  * main - check the code.
- * Return: Always 0.
+ * Return: 0
  */
-int fibonacci_series(int);
-int main(void)
+int main (void)
 {
-   int c = 1, i;
+int a, i = 0, b = 1, c = 0;
 
-   for ( i = 1 ; i <= 50 ; i++ )
-   {
-      printf("%d, ", fibonacci_series(c));
-      c++;
-   }
-
-   return 0;
+while(i < 48)
+{
+	a = b + c;
+	b = a - 1;
+	c = a - 2;
+	printf("%d, ", a);
+	i++;
 }
-/**
- * fibonacci_series - check the code.
- * Return: 0.
- */
-int fibonacci_series(int num)
-{
-   if ( num == 0 )
-     return 0;
-   else if ( num == 1 )
-     return 1;
-   else
-     return ( fibonacci_series(num-1) + fibonacci_series(num-2) );
-} 
+return (0);
+}
