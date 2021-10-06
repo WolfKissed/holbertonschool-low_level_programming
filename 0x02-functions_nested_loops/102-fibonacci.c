@@ -16,10 +16,10 @@ for (i = 1; i < 50; i++)
 	c = b;
 	b = a;
 }
-for (i =50; i < 51; i++)
+for (i = 50; i < 51; i++)
 {
 	a = b + c;
-	printf("%ld ", a);
+	printf("%ld", a);
 }
 return (0);
 }
