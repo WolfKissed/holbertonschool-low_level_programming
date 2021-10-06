@@ -4,9 +4,9 @@
  * main - check the code.
  * Return: 0
  */
-int main (void)
+int main(void)
 {
-int b = 1, c = 0,a,i;
+int b = 1, c = 0, a, i;
 
 for (i = 1; i < 51; i++)
 {
