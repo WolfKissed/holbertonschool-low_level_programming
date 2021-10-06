@@ -6,9 +6,9 @@
  */
 int main (void)
 {
-int a, i = 0, b = 1, c = 2;
+int a = 3, i = 0, b = 1, c = 0;
 
-while(i < 48)
+while(i < 49)
 {
 	a = b + c;
 	b = a - 1;
