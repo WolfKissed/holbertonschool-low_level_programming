@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <locale.h>
-#include <unistd.h>WQ
+#include <unistd.h>
 
 void positive_or_negative(int i);
 int largest_number(int a, int b, int c);
