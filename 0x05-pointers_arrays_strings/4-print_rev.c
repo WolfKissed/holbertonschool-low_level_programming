@@ -10,8 +10,8 @@ int i = strlen(s) - 1;
 
 while (i > -1)
 {
-printf(s[i]);
+_putchar(s[i]);
 i--;
 }
-printf('\n');
+_putchar('\n');
 }
