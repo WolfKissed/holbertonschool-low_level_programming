@@ -1,13 +1,17 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * _puts - prints a string
- * @str: char
+ * print_rev - prints a string in reverse
+ * @s: char
  * Return: 0
  */
-void _puts(char *str)
+void print_rev(char *s)
 {
-strrev(str);
-_puts("%s", str);
-printf("\n");
+int i = strlen(s) - 1;
+
+while (i > -1)
+{
+printf(s[i]);
+i--;
+}
+printf('\n');
 }
