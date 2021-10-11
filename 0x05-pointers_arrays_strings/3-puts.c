@@ -7,6 +7,6 @@
  */
 void _puts(char *str)
 {
-printf("%s", str);
-printf("\n");
+_putchar("%s", str);
+_putchar("\n");
 }
