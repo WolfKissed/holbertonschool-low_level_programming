@@ -8,6 +8,6 @@
 void _puts(char *str)
 {
 strrev(str);
-printf("%s", str);
+_puts("%s", str);
 printf("\n");
 }
