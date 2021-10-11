@@ -25,6 +25,11 @@ start++;
 end--;
 }
 }
+/**
+ * str_len - check code
+ * @ptr: char
+ * Return:0
+ */
 int str_len (char *ptr)
 {
 int i = 0;
