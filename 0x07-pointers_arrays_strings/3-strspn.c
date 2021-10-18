@@ -17,7 +17,7 @@ while (s[b] != 32)
 if (accept[a] == s[b])
 {
 x++;
-{
+}
 b++;
 }
 a++;
