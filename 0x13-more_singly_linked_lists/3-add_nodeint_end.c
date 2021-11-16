@@ -22,6 +22,7 @@ return (m);
 x = *head;
 while (x->next)
 x = x->next;
-x ->next = m;
+x->next = m;
+
 return (m);
 }
