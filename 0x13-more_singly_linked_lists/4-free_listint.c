@@ -1,12 +1,12 @@
 #include "lists.h"
 /**
 * free_listint - frees a list
-* @head:list_t
+* @head: list_t
 * Return: 0
 */
 void free_listint(listint_t *head)
 {
-listint_t *x, y*;
+listint_t *x, *y;
 y = head;
 while (y != NULL)
 {
