@@ -15,7 +15,7 @@ if (filename == NULL)
 
 if (text_content != NULL)
 {
-for (x = 0; text_content[len];)
+for (x = 0; text_content[x];)
 	x++;
 }
 	op = open(filename, O_WRONLY | O_APPEND);
